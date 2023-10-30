@@ -25,7 +25,7 @@ const AboutUs = () => {
           Our carefully selected ingredients are sourced from trusted suppliers who share our commitment to sustainability and ethical practices. From vibrant fruits and vegetables to wholesome grains and superfoods, our range offers a diverse selection to cater to your dietary needs and preferences.
         </p>
 
-        <div className="flex gap-8 items-center my-12">
+        <div className="flex flex-col md:flex-row gap-8 items-center my-12">
           <div className='flex items-center gap-6'>
             <Image 
               src="/Tractor.png"
@@ -52,7 +52,7 @@ const AboutUs = () => {
           </div>
         </div>
         <Link href="/shop">
-          <CustomBtn text="Explore More" icon={true}/>
+          <CustomBtn text="Explore More" icon={true} customclass="w-full md:w-fit"/>
         </Link>
       </div>
       </section>

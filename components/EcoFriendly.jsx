@@ -20,15 +20,14 @@ const EcoFriendly = () => {
 
         <h4 className='heading-6 text-primary'>Start with Our Company First</h4>
         <p className='paragraph mt-6 text-body-text mb-12'>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
-        </p>
+          we prioritize building a strong foundation with our customers. We believe in transparency, quality, and providing exceptional service.         </p>
         <h4 className='heading-6 text-primary'>Learn How to Grow Yourself</h4>
         <p className='paragraph mt-6 text-body-text mb-12'>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+          we understand that personal growth is an essential part of living a fulfilling and sustainable life. We believe in empowering individuals to develop their skills, expand their knowledge, and cultivate a mindset of continuous learning and self-improvement.        
         </p>
         <h4 className='heading-6 text-primary'>Farming Strategies of Today</h4>
         <p className='paragraph mt-6 text-body-text mb-12'>
-          Sed ut perspiciatis unde omnis iste natus error sit voluptat accusantium doloremque laudantium. Sed ut perspiciatis.
+          In the modern world, farming practices have evolved to prioritize sustainability, environmental stewardship, and the production of nutritious, high-quality food.        
         </p>
 
       </div>

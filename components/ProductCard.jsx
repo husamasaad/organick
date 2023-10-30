@@ -6,7 +6,7 @@ import React from 'react'
 const ProductCard = ({ product }) => {
   return (
     <Link href={`/shop/${product.slug.current}`} className='rounded-2xl overflow-hidden border shadow-md pt-4 relative bg-white cursor-pointer hover:shadow-2xl'>
-      <span className='absolute top-5 left-5 bg-primary px-6 py-3 text-white rounded-xl font-semibold text-lg'>{product.category}</span>
+      <span className='absolute capitalize top-5 left-5 bg-primary px-6 py-3 text-white rounded-xl font-semibold text-lg'>{product.category}</span>
       <Image 
         src={product.image}
         alt={product.title}

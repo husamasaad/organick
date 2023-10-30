@@ -38,7 +38,7 @@ const WhyUs = () => {
         />
       </div>
       <div className='mt-8 flex-center flex-wrap gap-6'>
-        <div className='flex justify-start items-center flex-col w-full max-w-[256px] h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
+        <div className='flex justify-start items-center flex-col w-full max-w-[256px] md:h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
           <Image 
             src="/retail-icon.png"
             width={95}
@@ -50,7 +50,7 @@ const WhyUs = () => {
           Enjoy peace of mind with our hassle-free return policy.
           </p>
         </div>
-        <div className='flex justify-start items-center flex-col w-full max-w-[256px] h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
+        <div className='flex justify-start items-center flex-col w-full max-w-[256px] md:h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
           <Image 
             src="/fresh-icon.png"
             width={95}
@@ -62,7 +62,7 @@ const WhyUs = () => {
             We prioritize quality and freshness to deliver the finest ingredients to your doorstep.
           </p>
         </div>
-        <div className='flex justify-start items-center flex-col w-full max-w-[256px] h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
+        <div className='flex justify-start items-center flex-col w-full max-w-[256px] md:h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
           <Image 
             src="/support-icon.png"
             width={95}
@@ -74,7 +74,7 @@ const WhyUs = () => {
             Count on us for round-the-clock support. Our dedicated customer service team is available to assist you
           </p>
         </div>
-        <div className='flex justify-start items-center flex-col w-full max-w-[256px] h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
+        <div className='flex justify-start items-center flex-col w-full max-w-[256px] md:h-[363px] gap-6 bg-white p-10 rounded-[30px] shadow-md'>
           <Image 
             src="/security-icon.png"
             width={95}

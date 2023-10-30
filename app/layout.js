@@ -4,7 +4,7 @@ import './globals.css'
 import { ContextProvider } from '@/context/ContextProvider'
 
 export const metadata = {
-  title: 'Organic Online Store Metadata - Promoting Healthy and Nourishing Food',
+  title: 'Organic Store - Promoting Healthy and Nourishing Food',
   description: 'carefully curated selection of organic products designed to support your well-being',
 }
 

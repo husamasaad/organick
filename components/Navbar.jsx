@@ -21,7 +21,7 @@ const Navbar = () => {
         <SearchComponent />
         <Cart />
         <div className="md:hidden">
-        <NavMenu />
+          <NavMenu />
         </div>
       </div>
     </nav>

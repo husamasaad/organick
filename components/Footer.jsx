@@ -80,11 +80,11 @@ const Footer = () => {
             </Link>
           </ul>
         </div>
-        <div className="w-full pt-6">
-          <p className="font-normal text-md text-color-gray-5 mt-4 leading-[27px]">© Copyright 2023 furino. All rights reverved. Built by Husam Asaad
-          </p>
-        </div>
       </footer>
+      <div className="w-full">
+        <p className="font-normal text-md text-primary my-4 leading-[27px] text-center">© Copyright 2023 furino. All rights reverved. Built by Husam Asaad
+        </p>
+      </div>
     </>
   )
 }

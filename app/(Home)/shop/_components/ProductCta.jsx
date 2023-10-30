@@ -66,7 +66,7 @@ const ProductCta = ({ product }) => {
 
   return (
     <>
-    <div className='flex items-center justify-between mt-12 gap-12 mb-12 flex-wrap'>
+    <div className='flex flex-col sm:flex-row items-center justify-between mt-12 gap-12 mb-12 flex-wrap'>
       <p className="paragraph text-primary font-bold ">Quantity :</p>
       <div className='border border-black w-full min-w-[172px] max-w-[172px] h-16 uppercase font-bold flex items-center justify-between rounded-2xl text-color-gray-1 overflow-hidden'>
         <button type='button' onClick={handleMinus} className='p-8 text-xl hover:bg-primary hover:text-white transition-all'>-</button>

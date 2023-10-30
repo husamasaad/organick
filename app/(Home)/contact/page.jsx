@@ -1,6 +1,6 @@
 import Banner from "@/components/Banner";
+import ContactTalk from "@/components/ContactTalk.jsx";
 import Image from "next/image";
-import ContactTalk from "./_components/ContactTalk.jsx";
 
 export default function Contact() {
 

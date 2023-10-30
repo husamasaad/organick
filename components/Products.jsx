@@ -18,7 +18,7 @@ const Products = async () => {
         ))}
       </div>
       <div className='flex-center mt-16'>
-        <Link href="/">
+        <Link href="/shop">
           <CustomBtn text="Load More" icon={true}/>
         </Link>
       </div>

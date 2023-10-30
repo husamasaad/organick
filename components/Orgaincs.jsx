@@ -15,7 +15,7 @@ const Orgaincs = async () => {
           <span className="subtitle text-secondary text-center sm:text-left block z-40 relative">Offer</span>
           <h2 className='heading-3 !leading-[45px] text-white block z-40 relative'>We Offer Organic For You</h2>
         </div>
-        <Link href="/" className='block sm:ml-auto mt-8'>
+        <Link href="/shop" className='block sm:ml-auto mt-8'>
           <CustomBtn text="View All Product" variant="primaryAlt" icon={true}/>
         </Link>
       </div>

@@ -1,4 +1,3 @@
-import { CustomBtn } from '@/components/CustomBtn'
 import { Facebook, Github, Instagram, Twitter } from 'lucide-react'
 import Image from 'next/image'
 import { Link } from 'nextjs13-progress'
@@ -19,7 +18,7 @@ const ContactTalk = () => {
           We'd love to talk about how we can work together.
         </h4>
         <p className='paragraph mt-6 text-body-text'>
-        We are excited to explore collaboration opportunities and discuss how we can work together to achieve mutual success. Our team is dedicated to finding innovative solutions and creating meaningful partnerships.
+          We are excited to explore collaboration opportunities and discuss how we can work together to achieve mutual success. Our team is dedicated to finding innovative solutions and creating meaningful partnerships.
         </p>
         <div className=' flex items-center gap-6 mt-12'>
           <Image 
@@ -31,7 +30,7 @@ const ContactTalk = () => {
           <div>
             <h4 className='heading-6 text-primary'>Message</h4>
             <p className='paragraph mt-6 text-body-text'>
-            support@organic.com
+              support@organic.com
             </p>
           </div>
         </div>

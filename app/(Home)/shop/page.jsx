@@ -20,7 +20,7 @@ export default async function Shop({ searchParams }) {
       <Banner bgUrl="/shop-bg.png" title="Shop" />
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-16 x-paddings'>
         {products.map(product => (
-          <ProductCard product={product} />
+          <ProductCard key={product._id} product={product} />
         ))}
       </div>
       {count > 12 &&  <NavigationBtns pagesCount={pages} />}

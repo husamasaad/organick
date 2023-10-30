@@ -29,7 +29,7 @@ const NavMenu = () => {
         <PopoverContent className="w-[80vw] max-w-[350px] p-0 z-50">
             <ul className="divide-y divide-gray-200 shadow-xl">
               {navLinks.map(item => (
-                <Link key={item.id} href={`/${item.link}`}>
+                <Link key={item.id} href={item.link}>
                 <li key={item.id} className="p-6 border-b">
                   {item.label}
                 </li>

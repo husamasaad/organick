@@ -88,32 +88,32 @@ export const testimonials = [
 export const navLinks = [
   {
     id: 0,
-    link: "home",
+    link: "/",
     label: "Home"
   },
   {
     id: 1,
-    link: "about",
+    link: "/about",
     label: "About"
   },
   {
     id: 2,
-    link: "quality",
+    link: "/quality",
     label: "Quality Standards"
   },
   {
     id: 3,
-    link: "contact",
+    link: "/contact",
     label: "Contact Us"
   },
   {
     id: 4,
-    link: "team",
+    link: "/team",
     label: "Our Team"
   },
   {
     id: 5,
-    link: "shop",
+    link: "/shop",
     label: "Shop"
   },
 ]

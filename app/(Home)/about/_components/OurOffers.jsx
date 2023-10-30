@@ -12,7 +12,7 @@ const OurOffers = () => {
             alt="spicy"
             width={334}
             height={314}
-            className="object-cover rounded-3xl h-[314px] shadow-sm"
+            className="object-cover rounded-3xl h-[314px] shadow-sm mx-auto"
           />
           <h5 className="text-white text-2xl font-semibold text-center mt-8">Spicy</h5>
         </div>
@@ -22,7 +22,7 @@ const OurOffers = () => {
             alt="Nuts and Feed"
             width={334}
             height={314}
-            className="object-cover rounded-3xl h-[314px] shadow-sm"
+            className="object-cover rounded-3xl h-[314px] shadow-sm mx-auto"
           />
           <h5 className="text-white text-2xl font-semibold text-center mt-8">Nuts & Feed</h5>
         </div>
@@ -32,7 +32,7 @@ const OurOffers = () => {
             alt="Fruits"
             width={334}
             height={314}
-            className="object-cover rounded-3xl h-[314px] shadow-sm"
+            className="object-cover rounded-3xl h-[314px] shadow-sm mx-auto"
           />
           <h5 className="text-white text-2xl font-semibold text-center mt-8">Fruits</h5>
         </div>
@@ -42,7 +42,7 @@ const OurOffers = () => {
             alt="Vegetables"
             width={334}
             height={314}
-            className="object-cover rounded-3xl h-[314px] shadow-sm"
+            className="object-cover rounded-3xl h-[314px] shadow-sm mx-auto"
           />
           <h5 className="text-white text-2xl font-semibold text-center mt-8">Vegetables</h5>
         </div>

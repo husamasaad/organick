@@ -24,7 +24,7 @@ const ProductInfo = ({ product }) => {
         <p className='paragraph text-body-text text-center max-w-[980px] mx-auto'>{product.description}</p>
       ) : (
         <div className="max-w-[980px] mx-auto">
-          <h4 className='paragraph text-primary font-bold'>Nutritional Nenefits:</h4>
+          <h4 className='paragraph text-primary font-bold'>Nutritional Benefits:</h4>
           <p className='paragraph mt-6 text-body-text mb-12 pl-6'>
             {benifits}
           </p>

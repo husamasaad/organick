@@ -34,7 +34,7 @@ export default function OurTeam() {
         Our Organic Experts
         </h2>
         <p className='paragraph mt-6 text-body-text max-w-[700px] text-center mx-auto'>
-          Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.
+          With their deep knowledge and dedication to sustainability, they are the driving force behind our commitment to providing you with the highest quality organic products. Meet our team members:
         </p>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16'>
           {team.map((member) => (

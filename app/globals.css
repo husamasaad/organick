@@ -66,6 +66,9 @@ body {
     @apply border-primary cursor-pointer transition-all hover:bg-primary hover:text-white font-bold uppercase bg-[#F9F1E7] text-body-text py-4 px-6 rounded-lg
   }
 
+  .no-focus {
+    @apply focus-visible:ring-0 focus-visible:ring-transparent focus-visible:ring-offset-0 focus:outline-none !important;
+  }
 }
 
 

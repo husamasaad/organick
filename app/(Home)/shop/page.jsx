@@ -11,7 +11,7 @@ export default async function Shop({ searchParams }) {
 
   const products = await getProducts(page, 13, searchParams?.category)
 
-  const count = await getProductsCount()
+  const count = await getProductsCount(searchParams?.category)
 
   const pages = Array.from({ length: Math.ceil(count / 16) }, (_, index) => index + 1);
 
@@ -23,7 +23,7 @@ export default async function Shop({ searchParams }) {
           <ProductCard product={product} />
         ))}
       </div>
-      <NavigationBtns pagesCount={pages} />
+      {count > 12 &&  <NavigationBtns pagesCount={pages} />}
     </main>
   )
 }

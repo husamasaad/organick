@@ -38,8 +38,7 @@ const Footer = () => {
           <Image src="/logo.svg" alt="logo" width={200} height={53} className='object-contain mx-auto' />
         </Link>
         <p className='paragraph text-body-text text-center mt-6 mb-16'>
-          Simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum simply dummy text of the printing
+          Welcome to Organick! We are passionate about promoting healthy living and providing you with the best products to support your well-being.
         </p>
         <div className="flex-center gap-5">
           <Link href="/" className="text-primary w-16 h-16 bg-[#EFF6F1] rounded-full flex-center">

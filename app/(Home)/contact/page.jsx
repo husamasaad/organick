@@ -26,7 +26,7 @@ export default function Contact() {
             Our Farms
           </h2>
           <p className='paragraph mt-6 text-body-text mb-12'>
-            Established fact that a reader will be distracted by the readable content of a page when looking a layout. The point of using.
+            our farms benefit from the region's fertile soil and favorable climate, creating the perfect environment for growing premium organic crops.
           </p>
           <div className="flex items-start gap-6">
             <Image 

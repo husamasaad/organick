@@ -19,8 +19,7 @@ const ContactTalk = () => {
           We'd love to talk about how we can work together.
         </h4>
         <p className='paragraph mt-6 text-body-text'>
-          Simply dummy text of the printing and typesetting industry. Lorem had ceased to 
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+        We are excited to explore collaboration opportunities and discuss how we can work together to achieve mutual success. Our team is dedicated to finding innovative solutions and creating meaningful partnerships.
         </p>
         <div className=' flex items-center gap-6 mt-12'>
           <Image 

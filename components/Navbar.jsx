@@ -3,6 +3,7 @@ import MenuBarComponent from "./menue-bar"
 import { SearchComponent } from "./SearchComponent"
 import Cart from "./Cart"
 import { Link } from "nextjs13-progress"
+import NavMenu from "./NavMenu"
 
 
 const Navbar = () => {
@@ -19,6 +20,9 @@ const Navbar = () => {
       <div className="flex items-center gap-12">
         <SearchComponent />
         <Cart />
+        <div className="md:hidden">
+        <NavMenu />
+        </div>
       </div>
     </nav>
   )

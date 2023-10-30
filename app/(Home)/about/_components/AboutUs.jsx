@@ -19,10 +19,10 @@ const AboutUs = () => {
           Things for Success
         </h4>
         <p className='paragraph mt-6 text-body-text'>
-          Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+          Welcome to Organick! We are passionate about promoting healthy living and providing you with the best products to support your well-being. With years of experience in the health and wellness industry, We've dedicated Our time to curating a collection of premium organic foods and products that nourish both your body and mind.
         </p>
         <p className='paragraph mt-6 text-body-text'>
-          Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley.
+          Our carefully selected ingredients are sourced from trusted suppliers who share our commitment to sustainability and ethical practices. From vibrant fruits and vegetables to wholesome grains and superfoods, our range offers a diverse selection to cater to your dietary needs and preferences.
         </p>
 
         <div className="flex gap-8 items-center my-12">

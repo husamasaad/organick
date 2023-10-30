@@ -84,3 +84,36 @@ export const testimonials = [
     message: "I'm impressed by the quality and variety of your healthy products. They've made it easy for me to maintain a balanced lifestyle."
   },
 ]
+
+export const navLinks = [
+  {
+    id: 0,
+    link: "home",
+    label: "Home"
+  },
+  {
+    id: 1,
+    link: "about",
+    label: "About"
+  },
+  {
+    id: 2,
+    link: "quality",
+    label: "Quality Standards"
+  },
+  {
+    id: 3,
+    link: "contact",
+    label: "Contact Us"
+  },
+  {
+    id: 4,
+    link: "team",
+    label: "Our Team"
+  },
+  {
+    id: 5,
+    link: "shop",
+    label: "Shop"
+  },
+]

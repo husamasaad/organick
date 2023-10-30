@@ -28,7 +28,7 @@ const MenuBarComponent = () => {
       </Link>
       <MenubarMenu>
         <MenubarTrigger className="!text-primary hover:!text-primary/80 transition-all body-text font-bold !bg-transparent cursor-pointer p-0 m-0">Pages <ChevronDown className="ml-2" /></MenubarTrigger>
-        <MenubarContent>
+        <MenubarContent className="z-50">
           <Link href="/quality">
             <MenubarItem className="text-xl p-4 cursor-pointer text-primary">
               Quality Standards

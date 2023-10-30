@@ -46,11 +46,20 @@ export const getProducts = async (page, pageSize, category) => {
   }
 }
 
-export const getProductsCount = async () => {
+export const getProductsCount = async (category) => {
   
   try {
+
+    let query
+    if (category && category != "all") {
+      query = `*[_type == "product" && category == '${category}']`
+    } else {
+      query = `*[_type == "product"]`
+    }
+
+
     const productsCount = await client.fetch(
-      groq`count(*[_type == "product"])`
+      groq`count(${query})`
     );
 
     return productsCount;
